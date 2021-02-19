@@ -4,7 +4,7 @@
 
 // Time: O(s)
 // Space: O(s)
-// A very straight-forward solution, but that uses additional memory.
+// A very straight-forward solution that uses additional memory.
 public bool IsUnique(string s) {
     HashSet<char> charSet = new HashSet<char>();
     foreach (char c in s) {
@@ -19,8 +19,8 @@ public bool IsUnique(string s) {
 
 // Time: O(s)
 // Space: O(1)
-// We can accomplish the algorithmic task in constant time if we make assumptions about the encoding.
-// Ex: ASCII has 128 max characters
+// We can solve the problem in constant time if we make assumptions about the encoding.
+// Ex: ASCII has no more than 128 unique characters
 public bool IsUnique(string s) {
     if (s.Length > 128) return false;
     bool[] hasChar = new bool[128];
