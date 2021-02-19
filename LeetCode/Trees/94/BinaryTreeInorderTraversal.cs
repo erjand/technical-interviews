@@ -1,7 +1,7 @@
-// LeetCode #144
-// https://leetcode.com/problems/binary-tree-preorder-traversal/
+// LeetCode #94
+// https://leetcode.com/problems/binary-tree-inorder-traversal/
 //
-// Given the root of a binary tree, return the preorder traversal of its nodes' values.
+// Given the root of a binary tree, return the inorder traversal of its nodes' values.
 
 /**
  * Definition for a binary tree node.
@@ -17,13 +17,14 @@
  * }
  */
 
- // The preorder traversal of a binary tree visits and processes the nodes in order of: Parent, Left, Right.
- // Because the Parent node is visited before the others, it is "pre".
+ // The inorder traversal of a binary tree visits and processes the nodes in order of: Left, Parent, Right
+ // Because the nodes are visited in sequential order from left to right we call it "inorder".
+ // An inorder traversal is often the most commonly used tree traversal and if used on a BST will result in a sorted output.
 
  // Time: O(n)
  // Space: O(h) where h is the height of the tree.
 public class Solution {
-    public IList<int> PreorderTraversal(TreeNode root) {
+    public IList<int> InorderTraversal(TreeNode root) {
         List<int> valueList = new List<int>();
         if (root == null) return valueList;
         Traverse(root, valueList);
@@ -31,11 +32,12 @@ public class Solution {
     }
 
     public void Traverse(TreeNode node, List<int> valueList) {
-        valueList.Add(node.val);
-
         if (node.left != null) {
             Traverse(node.left, valueList);
         }
+        
+        valueList.Add(node.val);
+
         if (node.right != null) {
             Traverse(node.right, valueList);
         }
