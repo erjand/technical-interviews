@@ -20,8 +20,8 @@
 // Level Order Traversal of a tree is essentially a Breadth First Search (BFS).
 // The standard BFS implementation uses a queue, where as every node is visited all of its adjacent nodes get added to the queue for future processing.
 
- // Time: O(n)
- // Space: O(w) where w is the max width of the tree
+// Time: O(n)
+// Space: O(w) where w is the max width of the tree
 public class Solution {
     public IList<IList<int>> LevelOrder(TreeNode root) {
         List<IList<int>> valueList = new List<IList<int>>();
