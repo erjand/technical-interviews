@@ -1,6 +1,6 @@
 # Introduction
 
-I have attempted to consolidate the most helpful and essential notes that I put together while studying for algorithm-based interviews. 
+I have attempted to consolidate the most helpful and essential notes that I put together while studying for algorithm-based interviews.
 
 Much of the material in this section is adapted or taken from work that others have done, and I've tried to list many of those people and locations in the Resources section.
 
