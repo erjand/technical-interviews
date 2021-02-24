@@ -15,8 +15,6 @@
   * HackerRank has very limited support for C#, which made a difference at least in my case.
 * YouTube Channels
   * Some of these are better than others but I found them all useful and quality content at times.
-  * Some of these can be click-bait-y.
-  * Some of these can be kind of "brogrammer"
     * [Adam Coder](https://www.youtube.com/channel/UCIPzukkCO01wPnMo1DZXIcQ)
     * [Be A Better Dev](https://www.youtube.com/channel/UCraiFqWi0qSIxXxXN4IHFBQ)
     * [CS Dojo](https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A)
