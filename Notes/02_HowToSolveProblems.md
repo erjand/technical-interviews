@@ -6,7 +6,7 @@
 2. Failing to run quick test cases through your solution after you finish or as you go.
 3. Failing to look for improvements or optimizations in your code (ex: "what could I do to take this solution from O(n) space to O(1) space?").
 
-## 7 Step Framework for Solving Problems
+## 7 Step Framework for Solving Problems (adapted from CtCI)
 
 1. **Listen Carefully**
     * Almost all details are useful: look for small clues in the problem description that can shed light on implicit constraints in your solution or wrinkles that may be introduced by the interviewer later in the problem.
