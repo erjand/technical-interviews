@@ -6,6 +6,8 @@
 2. Failing to run quick test cases through your solution after you finish or as you go.
 3. Failing to look for improvements or optimizations in your code (ex: "what could I do to take this solution from O(n) space to O(1) space?").
 
+---
+
 ## 7 Step Framework for Solving Problems (adapted from CtCI)
 
 1. **Listen Carefully**
@@ -31,9 +33,11 @@
     * Run your test cases from #2 through your solution.
     * Explain your code to your interviewer like a code review.
 
+---
+
 ## Other Tips
 
-* Keep maps / hashsets at the top of your mind as they are extremely common and extremely useful for optimizations.
+* Keep maps / hashsets at the top of your mind as they are very common and extremely useful for optimizations.
 * Remember that interview problems are designed to be solved!
 * Start by filtering out DS&A that aren't useful or relevant to the problem, or that don't meet the complexity requirements.
 * Slow down, take a breath, and don't panic. *How* you approach a problem is important also, not just *if* you solve it. Even if you don't get a 100% solution to a problem, you can still have a decent interview.
