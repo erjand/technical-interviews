@@ -42,5 +42,3 @@ public ListNode GetNodeByValue(ListNode head, int targetValue) {
 ```
 
 As with an array, this algorithm has to consider every node in the LinkedList to find the *targetValue*, so the run-time is linear with the size of the input.
-
----
