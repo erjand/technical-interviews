@@ -26,19 +26,19 @@ public class Solution {
     public int RangeSumBST(TreeNode root, int low, int high) {
         if (root == null) return 0;
 
-        int value = 0;
+        int val = 0;
         if (root.val >= low && root.val <= high) {
-            value = root.val;
+            val = root.val;
         }
 
         if (root.left != null && root.right != null) {
-            return RangeSumBST(root.left, low, high) + RangeSumBST(root.right, low, high) + value;
+            return RangeSumBST(root.left, low, high) + RangeSumBST(root.right, low, high) + val;
         }
 
         if (root.left != null) {
-            return RangeSumBST(root.left, low, high) + value;
+            return RangeSumBST(root.left, low, high) + val;
         }
 
-        return RangeSumBST(root.right, low, high) + value;
+        return RangeSumBST(root.right, low, high) + val;
     }
 }
