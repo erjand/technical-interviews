@@ -3,6 +3,8 @@
 //
 // Given an array of integers nums and an integer k, return the total number of continuous subarrays whose sum equals to k.
 
+// If the array specified only positive integers, we could bail out of the second for loop as soon as sum >= k
+
 // Time: O(n^2)
 // Space: O(1)
 public class Solution {
