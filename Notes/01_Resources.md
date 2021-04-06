@@ -4,7 +4,7 @@
   * [Cracking the Coding Interview (CtCI)](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
     * Probably the most used and most referenced resource for good reason.
     * The author provides quick chapters that cover the essentials along with a wealth of practice problems.
-    * Due to the age of the book, the chapter on System Design seems insufficient in 2021 (shift away from OO style questions to more distributed systems, web architecture type of questions).
+    * Due to the age of the book, the chapter on System Design seems insufficient in 2021 (in my experience there has been a shift away from OO style questions to more distributed systems, web architecture type of questions).
     * The author additionally has a series of videos on Youtube done in collaboration with HackerRank.
       * [Data Structures](https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX)
       * [Algorithms](https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL)
@@ -28,13 +28,14 @@
   * [An Algorithm for Passing Programming Interviews](https://malisper.me/an-algorithm-for-passing-programming-interviews/)
   * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
   * [What is Big O Notation](https://jarednielsen.com/big-o-notation/)
+  * [The Daily Byte](https://thedailybyte.dev/) - Done by Kevin Naughton Jr in the Youtube section above. These were a helpful onramp from easier to more challenging problems for me.
 
 * System Design
   * [System Design Primer](https://github.com/donnemartin/system-design-primer)
-  * [This is My Architecture](https://aws.amazon.com/architecture/this-is-my-architecture/)
-  * [Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
-  * [Excalidraw](https://excalidraw.com/)
-  * [StackExchange Performance](https://stackexchange.com/performance)
+  * [This is My Architecture](https://aws.amazon.com/architecture/this-is-my-architecture/) - These are very AWS-centric but are still great short videos to familiarize yourself with different architecture examples.
+  * [Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview) - I ended up paying for an Educative.io subscription for one month to unlock this full course, which I think was worth it.
+  * [Excalidraw](https://excalidraw.com/) - Great for whiteboarding and system design practice.
+  * [StackExchange Performance](https://stackexchange.com/performance) - At least one helpful "real world" reference.
 
 * IDE
   * In general the recommendation I followed and that I think makes the most sense is to solve problems on paper or a plain text editor as you won't be able to rely on IDE features in most actual interviews.
