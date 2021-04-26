@@ -25,9 +25,11 @@
     * [Vivekanand Khyade - Algorithm Every Day](https://www.youtube.com/user/vivekanandkhyade)
 * Other Sites
   * [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+  * [New Year Gift - Curated List of Top 75 LeetCode Questions to Save Your Time](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
   * [An Algorithm for Passing Programming Interviews](https://malisper.me/an-algorithm-for-passing-programming-interviews/)
   * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
   * [What is Big O Notation](https://jarednielsen.com/big-o-notation/)
+  * [Sean Prashad - LeetCode Patterns](https://github.com/SeanPrashad/leetcode-patterns)
   * [The Daily Byte](https://thedailybyte.dev/) - Done by Kevin Naughton Jr in the Youtube section above. These were a helpful onramp from easier to more challenging problems for me.
 
 * System Design
