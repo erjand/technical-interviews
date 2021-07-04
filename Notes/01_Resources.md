@@ -10,7 +10,7 @@
       * [Algorithms](https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL)
   * [Mindset: The New Psychology of Success](https://www.amazon.com/Mindset-Psychology-Carol-S-Dweck/dp/0345472322)
     * This book has had a huge impact on me even outside of this process.
-    * Worth reading or at least grabbing key ideas from if you haven't ever considered a growth mindset vs a fixed mindset, or if you find yourself struggling with so-called imposter syndrome, feelings of insufficiency, anxiety, fear, etc.
+    * Worth reading or at least grabbing key ideas from if you haven't ever considered a growth mindset vs a fixed mindset, or if you find yourself struggling with imposter syndrome, feelings of insufficiency, anxiety, fear, etc.
 * [LeetCode](https://www.leetcode.com)
   * In general I found LeetCode to be superior to other similar sites, both in terms of the quantity and quality of problems as well as the amount of discussion and size of the community.
   * HackerRank has very limited support for C#, which made a difference at least in my case.
