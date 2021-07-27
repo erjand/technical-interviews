@@ -1,4 +1,4 @@
-# InterviewPrep
+# Interview Prep
 
 A place to consolidate some of my study and preparation for algorithm-based technical interviews. 
 
