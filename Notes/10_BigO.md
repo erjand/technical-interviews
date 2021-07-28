@@ -9,8 +9,6 @@
 * Big O helps us answer the question, "How can we do better?"
 * Being familiar with Big O helps you quickly identify the Best-Case Runtime for many problems as well as what data structures are well suited to solving the problem vs those that can be discarded.
 
----
-
 ## Space Complexity
 
 * In general, time complexity is more important than space complexity.
@@ -19,8 +17,6 @@
 * Space complexity increases with anything that allocates memory (assigning variables, creating new data structures, adding functions to the call stack, etc.).
 * For many languages, primitives like bool and int are O(1) while things like strings, arrays and Objects are O(n).
 * This probably corresponds to Stack (static allocated blocks of memory are constant) and Heap (dynamic in size and not allocated ahead of time) in most cases.
-
----
 
 ## Misc Rules
 
@@ -31,8 +27,6 @@
 * Drop constants (we care about scaling not precision). Ex: O(2n) = O(n)
 * Use different variables for your inputs as appropriate. Ex: O(n + m), O(k), etc.
 * Drop non-dominant terms. Ex: O(n + n^2) = O(n^2)
-
----
 
 ## Resources
 

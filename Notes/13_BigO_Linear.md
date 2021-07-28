@@ -2,11 +2,11 @@
 
 ## Definition
 
-Linear time is represented as O(n) (or other variables which are fine) and is used to describe algorithms that scale linearly with their input.
+Linear time is represented as O(n) and is used to describe algorithms that scale linearly with their input.
 
-Common examples and use cases for linear time algorithms are single for loops or other once-through *n* operations.
-
----
+Common examples and use cases for linear time algorithms are 
+* Single for loops
+* Once-through *n* operations
 
 ## Example #1
 
@@ -21,9 +21,7 @@ public bool Contains(string[] stringArray, string targetString) {
 }
 ```
 
-This algorithm, in the worst-case, has to look at every item in the array and so it takes longer to run as the size of the input array increases.
-
----
+This algorithm has to look at each item in *stringArray* to find *targetString* and so it scales linearly with the size of the input array.
 
 ## Example #2
 

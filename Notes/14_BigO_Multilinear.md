@@ -6,8 +6,6 @@ Multilinear is represented with two or more variables such as O(m + n) to indica
 
 Multilinear is used when dealing with multiple inputs that all scale linearly but the size and relationship of the inputs to each other is unknown.
 
----
-
 ## Example #1
 
 ``` { .cs }

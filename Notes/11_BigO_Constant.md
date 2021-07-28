@@ -4,9 +4,10 @@
 
 Constant time is represented as O(1) and describes algorithms which do not scale with input. Their runtime is constant regardless of the input size.
 
-Common examples and use cases for constant time algorithms include: arithmetic operations, accessing items in an Array or HashSet, adding an item to a Stack, etc.
-
----
+Common examples and use cases for constant time algorithms include: 
+* Arithmetic operations
+* Accessing items in an Array or HashSet
+* Adding an item to a Stack
 
 ## Example #1
 
@@ -17,8 +18,6 @@ public bool IsEven(int num) {
 ```
 
 Regardless of the size of *num* this method runs in the same amount of time.
-
----
 
 ## Example #2
 

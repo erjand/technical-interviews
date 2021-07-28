@@ -19,9 +19,9 @@
     * Sometimes these will be provided by the problem prompt, but make sure you look at them and consider them, and see if any more would be helpful.
 3. **State the Simple Solution**
     * This is often the "brute force" solution and demonstrates to your interviewer you understand the problem and the conceptual solution to it.
-    * At this portion, you are not writing much / any code.
+    * At this stage, you are not writing much / any code.
 4. **Optimize your Solution**
-    * You are still not writing much / any code, but are considering how you might improve the niave solution.
+    * You are still not writing much / any code, but are considering how you might improve the niave solution stated in #3 above.
     * You should be familiar enough with Big O patterns to identify the Best-Case Runtime (BCR) of any algorithmic solution to the problem.
 5. **Walk Through Your Algorithm**
     * Solidify your understanding of the algorithm.
@@ -30,8 +30,8 @@
     * Consider good style and design, even when white-boarding or using a text editor.
     * Write the kind of quality code you'd commit to a project repo (good names, proper formatting, helper methods, etc.) not the kind of terse and clever code you will often see on LeetCode, etc.
 7. **Test**
-    * Run your test cases from #2 through your solution.
-    * Explain your code to your interviewer like a code review.
+    * Manually run your test cases from #2 through your solution.
+    * Explain your code to your interviewer like you would in a code review.
 
 ---
 
