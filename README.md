@@ -2,7 +2,7 @@
 
 This repository is a consolidation of some of my study and preparation for algorithm-based technical interviews. 
 
-When I started doing these problems I was using C# primarily, so I've generally used camel-case for my naming convention, but changed where appropriate for different languages (e.g. example_problem.rb).
+When I started doing these problems I was using C# primarily, so I've generally used PascalCase for my naming convention, but changed where appropriate for different languages (e.g. example_problem.rb).
 
 ## [Notes](https://github.com/eander01/InterviewPrep/tree/main/Notes)
 I'm not currently very happy with how I've organized these notes and would like to re-work them at some point.
