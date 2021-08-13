@@ -1,11 +1,8 @@
 # Interview Prep
 
-This repository is a consolidation of some of my study and preparation for algorithm-based technical interviews. 
+This repository is a consolidation of practice problems for algorithm-based technical interviews. 
 
 When I started doing these problems I was using C# primarily, so I've generally used PascalCase for my naming convention, but changed where appropriate for different languages (e.g. example_problem.rb).
-
-## [Notes](https://github.com/eander01/InterviewPrep/tree/main/Notes)
-I'm not currently very happy with how I've organized these notes and would like to re-work them at some point.
 
 ## [Problems](https://github.com/eander01/InterviewPrep/tree/main/Problems)
 These problems are generally broken down by where they come from, and then either by book chapter, problem number, or category, or some combination depending on the best match for the original source structure.
