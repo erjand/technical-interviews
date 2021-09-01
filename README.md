@@ -1,6 +1,6 @@
 # Technical Interviews
 
-This repository is a consolidation of practice problems for algorithm-based technical interviews.
+This repository is a consolidation of problems for algorithm-based technical interviews.
 
 ## [Problems](https://github.com/eander01/InterviewPrep/tree/main/Problems)
 
