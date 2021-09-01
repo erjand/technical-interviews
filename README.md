@@ -6,8 +6,6 @@ This repository is a consolidation of practice problems for algorithm-based tech
 
 These problems are generally broken down by where they come from, and then either by book chapter, problem number, or category, or some combination depending on the best match for the original source structure.
 
-Most of the implemented solutions are in C# right now, but I'm adding other languages as I have time.
-
 The current problem sources are:
 
 * Algorithm Patterns generally coming from [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
