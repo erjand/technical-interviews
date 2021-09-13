@@ -5,6 +5,14 @@
 // You may assume that each input would have exactly one solution, and you may not use the same element twice.
 // You can return the answer in any order.
 
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println(twoSum([]int{2, 7, 11, 15}, 9))
+}
+
 func twoSum(nums []int, target int) []int {
 	var numHash = make(map[int]int)
 
