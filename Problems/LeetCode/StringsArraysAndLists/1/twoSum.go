@@ -13,6 +13,8 @@ func main() {
 	fmt.Println(twoSum([]int{2, 7, 11, 15}, 9))
 }
 
+// Time: O(n)
+// Space: O(n)
 func twoSum(nums []int, target int) []int {
 	var numHash = make(map[int]int)
 
