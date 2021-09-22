@@ -5,7 +5,7 @@
 // You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
 // Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
 
-// The brute force solution uses two for loops and runs in O(n^2).
+// The brute force solution uses nested for loops and runs in O(n^2).
 // A better solution just uses one for loop, but keeps track of it's current min and max while it goes.
 // Because we are dealing with an array that represents time, we only care about values moving forward so we don't need to compare back
 // any current values to previous values in the array.
