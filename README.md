@@ -4,8 +4,9 @@ A collection of resources for technical interviews. All materials and solutions 
 
 ## Contents
 
-- Solutions for various algorithm problems.
-- An [Anki](https://docs.ankiweb.net/) deck for technical interviews.
+- [AlgorithmPatterns](AlgorithmPatterns/) - solution templates for common algorithm patterns.
+- [Anki](Anki/) - an Anki deck for technical interviews.
+- [Solutions](Solutions/) - Solutions for various algorithm problems.
 
 ## Problem Sources
 
