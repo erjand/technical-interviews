@@ -1,6 +1,6 @@
-// A template for implementing the Two Pointers algorithm pattern.
+// A template for implementing the Two Pointers algorithm pattern with start and end pointers.
 
-public static int twoPointers(int[] arr) {
+public static int startAndEndPointers(int[] arr) {
     int left = 0;
     int right = arr.length - 1;
 
