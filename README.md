@@ -4,7 +4,6 @@ A collection of resources for technical interviews. All materials and solutions 
 
 ## Contents
 
-- [AlgorithmPatterns](AlgorithmPatterns/) - solution templates for common algorithm patterns.
 - [Solutions](Solutions/) - Solutions for various algorithm problems.
 
 ## Problem Sources
