@@ -1,10 +1,14 @@
 // From the educative.io course "Grokking the Coding Interview".
 // Pattern: Merge Intervals
 // Problem: Insert Interval (medium)
+// Similar LeetCode Problem: https://leetcode.com/problems/insert-interval/
 //
 // Given a list of non-overlapping intervals sorted by their start time, 
 // insert a given interval at the correct position 
 // and merge all necessary intervals to produce a list that has only mutually exclusive intervals.
+
+// This problem is very similar to https://leetcode.com/problems/insert-interval/, only it uses
+// an Interval class vs a 2d-array.
 
 class Interval {
     int start;
