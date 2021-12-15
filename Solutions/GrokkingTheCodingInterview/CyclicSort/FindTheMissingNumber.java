@@ -85,5 +85,7 @@ public static int findMissingNumber(int[] nums) {
         }
     }
 
-    return -1;
+    // Covers the edge case where input is already in order.
+    // Ex: [0, 1]
+    return nums.length;
 }
