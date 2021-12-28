@@ -18,7 +18,7 @@ class TreeNode {
 }
 
 // Time: O(n) where n is the number of nodes in the tree.
-// Space: O(w) where w is the maximum width of the tree.
+// Space: O(n) where n is the number of nodes in the tree.
 public static List<List<Integer>> traverse(TreeNode root) {
     List<List<Integer>> result = new ArrayList<List<Integer>>();
     
