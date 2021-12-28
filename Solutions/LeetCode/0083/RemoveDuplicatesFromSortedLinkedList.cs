@@ -15,8 +15,8 @@
  * }
  */
 
-// This algorithm traverses the LinkedList and whenever it finds the current and next node have the same value, it re-assigns current.next to skip over the duplicate value. 
-// This dereferences it and allows the GC to clean it up.
+// This algorithm traverses the LinkedList and whenever it finds the current and next node have the same value, 
+// it re-assigns current.next to skip over the duplicate value. This dereferences it and allows the GC to clean it up.
 
 // Time: O(n)
 // Space: O(1)
