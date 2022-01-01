@@ -1,7 +1,7 @@
 // From the educative.io course "Grokking the Coding Interview".
 // Pattern: Two Heaps
 // Problem: Find the Median of a Number Stream (medium)
-// Related LeetCode Problem: https://leetcode.com/problems/path-sum-ii/
+// Related LeetCode Problem: https://leetcode.com/problems/find-median-from-data-stream/
 
 // Problem Statement:
 // Design a class to calculate the median of a number stream. The class should have the following two methods:
@@ -40,6 +40,10 @@ class MedianOfAStream {
     // Space: O(1)
     // Return either the average of min and max or the top of max.
     public double findMedian() {
+        if (minHeap.size() == 0) {
+            return maxHeap.peek();
+        }
+        
         int max = maxHeap.peek();
         int min = minHeap.peek();
 
