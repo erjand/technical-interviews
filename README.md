@@ -5,6 +5,7 @@ A collection of resources for technical interviews. All materials and solutions 
 ## Contents
 
 - [Solutions](Solutions/) - Solutions for various algorithm problems.
+- [Data Structures](Solutions/DataStructures/) - Solutions focused on using specific data structures.
 
 ## Problem Sources
 
