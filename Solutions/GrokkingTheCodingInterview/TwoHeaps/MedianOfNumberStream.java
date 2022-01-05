@@ -11,7 +11,6 @@
 //
 // If the count of numbers inserted in the class is even, the median will be the average of the middle two numbers.
 
-
 class MedianOfAStream {
     PriorityQueue<Integer> minHeap = new PriorityQueue<>();
     PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
