@@ -32,7 +32,7 @@ The resources in this section are intended to serve as a high-level overview and
    - There are an almost limitless number of technical resources online of varying degrees of quality. Rather than trying to drink from a firehose or gain a comprehensive breadth of knowledge on all subjects, take the time to identify the ideas that are truly important to master and focus on utilizing high-quality resources in those areas.
    - Don't try to memorize things. Instead, look for and learn patterns and concepts.
    - Data Structures are usually more important than Algorithms. Understanding how data structures work, how they are implemented in your chosen language, and when they are used will allow you to determine the appropriate data structure for the appropriate problem. Once the correct data structure is in place, the necessary algorithm will often be readily apparent.
-   - Try and study / practice for shorter lengths of time regularly vs longer lengths of time irregularly.
+   - Try and study and practice for shorter lengths of time regularly instead of longer lengths of time irregularly.
 
 6. **Setup your environment and tools**. You will want to ensure you have the following:
    - A text editor with syntax support for your chosen programming language.
@@ -46,8 +46,9 @@ The resources in this section are intended to serve as a high-level overview and
    - (Recommended) An IDE or the ability to compile / interpret code.
       - The important goal here is to have the ability to do things like run unit tests, print statements, or debug code.
       - You do not want to do most of your practice in this manner, but it can be a very helpful way to go more in-depth on particular problems as needed.
-      - If you are using an interpreted language such as Python, VS Code will have excellent support through extensions available to you. If you are using Java, [IntelliJ IDEA Community](https://www.jetbrains.com/idea/download) is a great place to start. If you are using C#, then [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/) is a high-quality and free option.
-   - (Optional) Some people find spaced-repition flash card programs, such as [Anki](https://ankiweb.net/about) to be very useful.
+      - The desired setup would be to have a stubbed out unit test or runnable file where you can quickly paste some code and then see what it does. This is very helpful when you are struggling to see how a solution works, or want to step line by line through an algorithm.
+      - If you are using an interpreted language such as Python, VS Code will have excellent extensions available to you. If you are using Java, [IntelliJ IDEA Community](https://www.jetbrains.com/idea/download) is a great place to start. If you are using C#, then [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/) is a high-quality and free option.
+   - (Optional) Some people find spaced-repetition flash card programs, such as [Anki](https://ankiweb.net/about) to be very useful.
 
 ## How to Interview
 
@@ -68,7 +69,7 @@ The goals for this section are to be able to:
 - [ ] Identify and talk about each of the major data structures.
 - [ ] Loosely implement each of the major data structures in your chosen language.
 - [ ] Identify and explain the Big O time and space complexity for each of the major data structures.
-- [ ] Choose the correct data structure(s) to use for solving coding problems.
+- [ ] Choose the correct data structure(s) to use for solving a given problem.
 
 ### Major Data Structures
 
@@ -77,14 +78,14 @@ The following are the most important data structures to be familiar with. Of the
 _Note:_ There is some variance in naming convention in this list based on the language you are using. I have tried to use the more general term, or include multiple terms where it would be helpful. I have also tried to split sections out where helpful, despite some of these structures being built on top of others (ex: `Queue` in Java is an Interface which `LinkedList` implements).
 
 - Arrays, Lists, and Strings
-- Maps, Hash Tables, and Sets
+- HashTables
 - LinkedLists
 - Queues and Stacks
 - Trees and Graphs
 
 #### Arrays, Lists, and Strings
 
-#### Maps, Hash Tables, and Sets
+#### HashTables
 
 #### LinkedLists
 
