@@ -65,10 +65,10 @@ WIP
 
 The goals for this section are to be able to:
 
-- [] Identify and talk about each of the major data structures.
-- [] Loosely implement each of the major data structures in your chosen language.
-- [] Identify and explain the Big O time and space complexity for each of the major data structures.
-- [] Choose the correct data structure(s) to use for solving coding problems.
+- [ ] Identify and talk about each of the major data structures.
+- [ ] Loosely implement each of the major data structures in your chosen language.
+- [ ] Identify and explain the Big O time and space complexity for each of the major data structures.
+- [ ] Choose the correct data structure(s) to use for solving coding problems.
 
 ### Major Data Structures
 
