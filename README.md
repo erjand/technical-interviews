@@ -1,18 +1,12 @@
 # Technical Interviews
 
-A collection of resources for technical interviews.
+A collection of resources for technical interviews. For the purpose of this repository, the term "technical interviews" is not intended to include System Design or Behavioral interview rounds.
 
 ## Contents
 
+- [SampleProblems](SampleProblems/) - A collection of real-world interview problems.
 - [Solutions](Solutions/) - Solutions for various algorithm problems.
-- [Data Structures](Solutions/DataStructures/) - Solutions focused on using specific data structures.
-
-## Problem Sources
-
-- [Cracking the Coding Interview by Gayle Laakmann McDowell](https://www.crackingthecodinginterview.com/)
-- [Grokking the Coding Interview: Patterns for Coding Questions](https://www.educative.io/courses/) (paid)
-- [LeetCode](https://leetcode.com/)
-- [ProjectEuler](https://projecteuler.info/)
+- [StudyNotes](StudyNotes/) - A high-level overview and roadmap to prepare for technical interviews.
 
 ## Additional Resources
 
