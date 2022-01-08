@@ -9,6 +9,7 @@ The resources in this section are intended to serve as a high-level overview and
 3. [Big O](#big-o)
 4. [Data Structures](#data-structures)
 5. [Algorithms](#algorithms)
+6. [Resources](#resources)
 
 ## Getting Started
 
@@ -94,5 +95,9 @@ _Note:_ There is some variance in naming convention in this list based on the la
 #### Trees and Graphs
 
 ## Algorithms
+
+WIP
+
+## Resources
 
 WIP
