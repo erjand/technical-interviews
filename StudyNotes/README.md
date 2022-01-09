@@ -2,6 +2,8 @@
 
 The resources in this section are intended to serve as a high-level overview and roadmap to prepare for technical interviews.
 
+Most of the code samples in this document are done in Java.
+
 ## Table of Contents
 
 1. [Getting Started](#getting-started)
@@ -61,7 +63,7 @@ WIP
 
 ## Data Structures
 
-> "If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to progamming." -Rob Pike, [5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
+> "Data dominates. If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to progamming." -Rob Pike, [5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
 
 ### Section Goals
 
@@ -71,28 +73,40 @@ The goals for this section are to be able to:
 - [ ] Loosely implement each of the major data structures in your chosen language.
 - [ ] Identify and explain the Big O time and space complexity for each of the major data structures.
 - [ ] Choose the correct data structure(s) to use for solving a given problem.
+- [ ] Know what the significant methods and properties for each data structure are, and how to use them (e.g. that a `Queue` will have `.push()`, `.peek()`, and `.pop()`.
 
 ### Major Data Structures
 
-The following are the most important data structures to be familiar with. Of these, particular attention should be given to Maps and Arrays, as many problems are solved with these two structures alone.
+The following are the most important data structures to be familiar with. Of these, particular attention should be given to HashTables and Arrays, as many problems are solved with these two structures alone.
 
-_Note:_ There is some variance in naming convention in this list based on the language you are using. I have tried to use the more general term, or include multiple terms where it would be helpful. I have also tried to split sections out where helpful, despite some of these structures being built on top of others (ex: `Queue` in Java is an Interface which `LinkedList` implements).
+#### Array
 
-- Arrays, Lists, and Strings
-- HashTables
-- LinkedLists
-- Queues and Stacks
-- Trees and Graphs
+- In most languages, Arrays are a fixed-size, sequential, and zero-indexed collection of elements of the same type.
 
-#### Arrays, Lists, and Strings
+#### Resizable Array (List, ArrayList)
 
-#### HashTables
+- Similar to an Array, but resizable.
+- In many languages, will have built-in support for things such as searching, sorting, adding, removing, etc.
+
+#### String
+
+- In many languages, Strings are a thin wrapper around `char[]` and behave as if they were a primitive.
+
+#### HashTable
+
+WIP
 
 #### LinkedLists
 
+WIP
+
 #### Queues and Stacks
 
+WIP
+
 #### Trees and Graphs
+
+WIP
 
 ## Algorithms
 
@@ -100,4 +114,22 @@ WIP
 
 ## Resources
 
-WIP
+### Algorithm Patterns
+
+- [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+- [Grokking the Coding Interview (paid)](https://www.educative.io/courses/grokking-the-coding-interview)
+- [Sean Prashad - LeetCode Patterns](https://github.com/SeanPrashad/leetcode-patterns)
+
+### Books
+
+- [Cracking the Coding Interview (CtCI)](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
+
+### Practice Problems
+
+- [LeetCode](https://www.leetcode.com/)
+- [HackerRank](https://www.hackerrank.com/)
+
+### Understanding Big O
+
+- [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+- [What is Big O Notation](https://jarednielsen.com/big-o-notation/)
