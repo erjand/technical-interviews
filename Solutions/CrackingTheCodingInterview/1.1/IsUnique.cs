@@ -1,10 +1,16 @@
-// CtCI 1.1
-// Question: Implement an algorithm to determine if a string has all unique characters. 
-// Can you do it in constant time?
+/*
+Tags: #array
+
+Problem Source:
+From Cracking the Coding Interview, problem 1.1
+
+Problem Statement:
+Implement an algorithm to determine if a string has all unique characters. Can you do it in constant time?
+*/
 
 public class Solution {
-    // Time: O(s)
-    // Space: O(s)
+    // Time: O(n)
+    // Space: O(n)
     // A very straight-forward solution that uses additional memory.
     public bool IsUnique(string s) {
         HashSet<char> charSet = new HashSet<char>();
@@ -18,7 +24,7 @@ public class Solution {
         return true;
     }
 
-    // Time: O(s)
+    // Time: O(n)
     // Space: O(1)
     // We can solve the problem in constant time if we make assumptions about the encoding.
     // Ex: ASCII has no more than 128 unique characters
