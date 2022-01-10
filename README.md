@@ -2,6 +2,8 @@
 
 A collection of resources for technical interviews. For the purpose of this repository, the term "technical interviews" is not intended to include System Design or Behavioral interview rounds.
 
+Tags are being added throughout this repository to make searching for particular topics easier. You can search for these with the syntax `#someTag`. Examples: `#array`, `#bfs`.
+
 ## Contents
 
 - [SampleProblems](SampleProblems/) - A collection of real-world interview problems.

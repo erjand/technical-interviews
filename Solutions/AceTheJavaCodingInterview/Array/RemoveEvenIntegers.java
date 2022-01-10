@@ -1,5 +1,11 @@
-// Problem Statement:
-// Write an algorithm to remove all even integers from an array, then return the new array.
+/*
+Tags: #array
+
+From the educative.io course "Ace the Java Coding Interview"
+
+Problem Statement:
+Write an algorithm to remove all even integers from an array, then return the new array.
+*/
 
 // Time: O(n)
 // Space: O(n)

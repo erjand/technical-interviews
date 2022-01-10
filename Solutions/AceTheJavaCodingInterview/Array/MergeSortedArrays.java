@@ -1,6 +1,12 @@
-// Problem Statement:
-// Given two sorted arrays, implement a method which returns a sorted array
-// consisting of all elements of both arrays.
+/*
+Tags: #array
+
+From the educative.io course "Ace the Java Coding Interview"
+
+Problem Statement:
+Given two sorted arrays, implement a method which returns a sorted array
+consisting of all elements of both arrays.
+*/
 
 // Time: O(a1 + a2)
 // Space: O(a1 + a2)
