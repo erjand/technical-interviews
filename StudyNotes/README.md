@@ -1,8 +1,6 @@
 # Study Notes (WIP)
 
-The resources in this section are intended to serve as a high-level overview and roadmap to prepare for technical interviews.
-
-Most of the code samples in this document are done in Java.
+This document is a high-level overview and roadmap to prepare for technical interviews.
 
 ## Table of Contents
 
@@ -21,7 +19,7 @@ Most of the code samples in this document are done in Java.
 
 2. **Build a roadmap to get from where you are now to where you want to be.** Depending on your level of familiarity with some of these topics, this roadmap could be as detailed as working through a long list of data structures and algorithms, or as pointed as doing a couple of practice interviews and reviewing key concepts.
 
-3. If you do not already have one, **pick a specific programming language to use for your preparation.** When you go to interview, you will be asked what language you want to use. You want to be very comfortable with the syntax and data structures available to you in your chosen language, as well as understanding other important languages features. It is recommended to pick a language that is widely-used and has some basic library support for common data structures. Some good choices are:
+3. **Pick a specific programming language to use for your preparation.** When you go to interview, you will be asked what language you want to use. You want to be very comfortable with the syntax and data structures available to you in your chosen language, as well as understanding other important languages features. It is recommended to pick a language that is widely-used and has some basic library support for common data structures. Some good choices are:
    - Java (if unsure, pick this or Python)
    - Python
    - C# (this can be a good choice over Java if you are targeting companies in the Windows ecosystem)
@@ -29,13 +27,13 @@ Most of the code samples in this document are done in Java.
    - JavaScript (particularly if interested in front-end roles)
    - Other languages that could make sense given your particular goals: Go, Kotlin, Rust, Ruby, Swift, etc.
 
-4. **Work with others**. In particular, having other experienced engineers that you can ask questions of, practice with, or discuss concepts with is very helpful and can save a lot of time trying to learn new things or discover your unknown-unknowns. Ideally these would be real-world connections, but in the absence of these kinds of relationships, there are a number of online communities where you can participate and discuss with others.
+4. **Work with others**. Having other experienced engineers that you can ask questions of, practice with, or discuss concepts with is very helpful and can save a lot of time trying to learn new things or discover your unknown-unknowns. Ideally these would be real-world connections, but in the absence of these kinds of relationships, there are a number of online communities where you can participate and discuss with others.
 
 5. **Be intentional and strategic in your preparation**. This is a broad topic, but here are a few suggestions:
-   - There are an almost limitless number of technical resources online of varying degrees of quality. Rather than trying to drink from a firehose or gain a comprehensive breadth of knowledge on all subjects, take the time to identify the ideas that are truly important to master and focus on utilizing high-quality resources in those areas.
+   - There are an almost limitless number of technical resources online of varying degrees of quality. Rather than trying to gain a comprehensive breadth of knowledge on all subjects, take the time to identify the ideas that are truly important to master and focus on utilizing high-quality resources in those areas.
    - Don't try to memorize things. Instead, look for and learn patterns and concepts.
    - Data Structures are usually more important than Algorithms. Understanding how data structures work, how they are implemented in your chosen language, and when they are used will allow you to determine the appropriate data structure for the appropriate problem. Once the correct data structure is in place, the necessary algorithm will often be readily apparent.
-   - Try and study and practice for shorter lengths of time regularly instead of longer lengths of time irregularly.
+   - Try to study and practice for shorter lengths of time regularly instead of longer lengths of time irregularly.
 
 6. **Setup your environment and tools**. You will want to ensure you have the following:
    - A text editor with syntax support for your chosen programming language.
@@ -45,12 +43,11 @@ Most of the code samples in this document are done in Java.
    - A note-taking system and appropriate tools.
       - If you don't already have a good system in place for taking notes, this could be an opportunity to begin developing one.
       - Writing things down is an important part of the learning process, and as you study and take notes you will quickly end up with a helpful collection of resources to review or share with others.
-      - I personally really like [Obsidian](https://obsidian.md/), but this can be a very personal choice to find something that works well for you.
+      - I like [Obsidian](https://obsidian.md/), but finding something that works well for you can be a personal choice.
    - (Recommended) An IDE or the ability to compile / interpret code.
-      - The important goal here is to have the ability to do things like run unit tests, print statements, or debug code.
-      - You do not want to do most of your practice in this manner, but it can be a very helpful way to go more in-depth on particular problems as needed.
-      - The desired setup would be to have a stubbed out unit test or runnable file where you can quickly paste some code and then see what it does. This is very helpful when you are struggling to see how a solution works, or want to step line by line through an algorithm.
-      - If you are using an interpreted language such as Python, VS Code will have excellent extensions available to you. If you are using Java, [IntelliJ IDEA Community](https://www.jetbrains.com/idea/download) is a great place to start. If you are using C#, then [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/) is a high-quality and free option.
+      - You do not want to do your regular practice with an IDE, but it can be helpful to do things like run unit tests, print statements, or debug code as needed.
+      - My recommendation is to have a stubbed out unit test or runnable file where you can quickly paste your code and then see what it does. This is helpful when you are struggling to see how a solution works, or want to step line by line through an algorithm.
+      - If you are using an interpreted language such as Python, then Visual Studio Code will have excellent extensions available to you for running code in the text editor itself. If you are using Java, [IntelliJ IDEA Community](https://www.jetbrains.com/idea/download) is a great place to start. If you are using C#, then [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/) is a high-quality and free option.
    - (Optional) Some people find spaced-repetition flash card programs, such as [Anki](https://ankiweb.net/about) to be very useful.
 
 ## How to Interview
@@ -81,13 +78,13 @@ The goals for this section are to be able to:
 - Space complexity answers the question "how much more memory (RAM) do we need as the inputs get larger?"
 - Space complexity increases with anything that allocates memory (assigning variables, creating new data objects, adding functions to the call stack, etc.).
 - For many languages, primitives like `bool` and `int` add `O(1)` space while things like strings, arrays and Objects add `O(n)`.
-- A common task for space complexity will be to take `O(n)` operations and instead do them with `O(1)` space instead. An example of this is being asked to sort a data structure in place instead of copying it to a new one.
+- A common task for space complexity will be to take `O(n)` operations and do them with `O(1)` space instead. A frequent example of this is being asked to sort a data structure in place instead of copying it to a new one.
 
 ### Amortized Runtime
 
-Amortized runtime is a way of describing where the worst case happens but then doesn't happen again for a while.
+Amortized runtime is a way of describing the runtime where the worst case happens but then doesn't happen again for a while.
 
-Example: adding an item to a `List` is almost always an `O(1)` operation unless that addition would exceed the amount of memory allocated to the List. If this is the case, the List will double it's size and copy itself, which is an `O(n)` operation. Even though the worst-case of adding an item to a List is `O(n)` we still talk about it as `O(1)` since that is what we expect to happen in _almost_ every case.
+Example: adding an item to a `List` is almost always an `O(1)` operation unless that addition would exceed the amount of memory allocated. If this is the case, the List will double it's size and copy itself, which is an `O(n)` operation. Even though the worst-case of adding an item to a List is `O(n)` we still talk about it as `O(1)` since that is what we expect to happen in _almost_ every case.
 
 ### Syntax and Base 2
 
@@ -98,7 +95,7 @@ When writing down runtimes, two important rules are generally observed in a non-
 
 ### Important Complexities
 
-The following are the important complexities to be familiar with (sorted smallest to largest).
+The following are important complexities to be familiar with (sorted smallest to largest).
 
 - Constant `O(1)`
 - Logarithmic `O(log n)`
