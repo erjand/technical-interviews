@@ -1,10 +1,16 @@
-// From the educative.io course "Grokking the Coding Interview".
-// Pattern: Cyclic Sort
-// Problem: Find the Missing Number (easy)
-// Similar LeetCode Problem: https://leetcode.com/problems/missing-number/
-//
-// We are given an array containing ‘n’ distinct numbers taken from the range 0 to ‘n’. 
-// Since the array has only ‘n’ numbers out of the total ‘n+1’ numbers, find the missing number.
+/*
+Tags: #array, #sort
+
+Problem Source:
+From the educative.io course "Grokking the Coding Interview".
+Pattern: Cyclic Sort
+Problem: Find the Missing Number (easy)
+Similar LeetCode Problem: https://leetcode.com/problems/missing-number/
+
+Problem Statement:
+We are given an array containing ‘n’ distinct numbers taken from the range 0 to ‘n’. 
+Since the array has only ‘n’ numbers out of the total ‘n+1’ numbers, find the missing number.
+*/
 
 // A very straight-forward way to solve this problem is with Arrays.sort.
 // This approach increases the time complexity and uses extra space.

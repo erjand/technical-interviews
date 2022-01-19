@@ -1,5 +1,5 @@
 /*
-Tags: #array
+Tags: #array, #sort
 
 Problem Source:
 From the educative.io course "Grokking the Coding Interview".

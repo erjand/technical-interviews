@@ -59,7 +59,56 @@ WIP
 
 ## Big O
 
-WIP
+Big O is the language and metric used to describe the efficiency of algorithms with respect to time and space. Big O is fundamentally a measurement of how an algorithm scales with input.
+
+The goals for this section are to be able to:
+
+- [ ] Understand the major Big O complexities and their relationship to each other (small to large).
+- [ ] Identify the Big O time and space complexity for any algorithm you write.
+- [ ] Be familiar with key Big O patterns (e.g. most sorting algorithms are `O(n logn)`).
+
+### Key Rules for Big O
+
+- Because Big O is a measurement of how an algorithm scales, we can drop constants and non-dominant terms. We care about whether an algorithm scales linearly, for example, and not about whether it scales at 0.5n, 1n, 2n, etc.
+  - Example: `O(2n)` becomes `O(n)` because `2n` is still just linear.
+  - Example: `O(n + n^2)` becomes `O(n^2)` because the constant `n` is not important compared to the quadratic `n^2`.
+- Add different steps together (e.g. `O(a)` + `O(b)` = `O(a + b)`).
+- Use different variables as appropriate to represent your inputs (e.g. `O(n + m)`, or `O(k)`, or `O(a1 + a2)`, etc.).
+
+### Space Complexity
+
+- In general, time complexity is more important than space complexity. This is a generalization and depends on the problem context, but in most situations the CPU does the heavy lifting and running processor cycles is more expensive than RAM.
+- Space complexity answers the question "how much more memory (RAM) do we need as the inputs get larger?"
+- Space complexity increases with anything that allocates memory (assigning variables, creating new data objects, adding functions to the call stack, etc.).
+- For many languages, primitives like `bool` and `int` add `O(1)` space while things like strings, arrays and Objects add `O(n)`.
+- A common task for space complexity will be to take `O(n)` operations and instead do them with `O(1)` space instead. An example of this is being asked to sort a data structure in place instead of copying it to a new one.
+
+### Amortized Runtime
+
+Amortized runtime is a way of describing where the worst case happens but then doesn't happen again for a while.
+
+Example: adding an item to a `List` is almost always an `O(1)` operation unless that addition would exceed the amount of memory allocated to the List. If this is the case, the List will double it's size and copy itself, which is an `O(n)` operation. Even though the worst-case of adding an item to a List is `O(n)` we still talk about it as `O(1)` since that is what we expect to happen in _almost_ every case.
+
+### Syntax and Base 2
+
+When writing down runtimes, two important rules are generally observed in a non-academic setting.
+
+1. Base 2 is assumed, so you can simply write `log n`, which is understood to be log base 2 of n. You will see this written as both `log n` and `logn`.
+2. The multiplication symbol is dropped, so you can write `n logn`, which is understood to be `n * logn`.
+
+### Important Complexities
+
+The following are the important complexities to be familiar with (sorted smallest to largest).
+
+- Constant `O(1)`
+- Logarithmic `O(log n)`
+- Linear `O(n)`
+- Multilinear `O(m + n)`
+- Linear Logarithmic `O(n logn)`
+- Quadratic `O(n^2)`
+- Cubic `O(n^3)`
+- Exponential `O(2^n)`
+- Factorial `O(n!)`
 
 ## Data Structures
 
@@ -71,7 +120,7 @@ The goals for this section are to be able to:
 
 - [ ] Identify and talk about each of the major data structures.
 - [ ] Loosely implement each of the major data structures in your chosen language.
-- [ ] Identify and explain the Big O time and space complexity for each of the major data structures.
+- [ ] Identify and explain the Big O time and space complexity for the important operations of each of the major data structures (access, search, insert, remove).
 - [ ] Choose the correct data structure(s) to use for solving a given problem.
 - [ ] Know what the significant methods and properties for each data structure are, and how to use them (e.g. that a `Queue` will have `.push()`, `.peek()`, and `.pop()`.
 
@@ -79,34 +128,15 @@ The goals for this section are to be able to:
 
 The following are the most important data structures to be familiar with. Of these, particular attention should be given to HashTables and Arrays, as many problems are solved with these two structures alone.
 
-#### Array
-
-- In most languages, Arrays are a fixed-size, sequential, and zero-indexed collection of elements of the same type.
-
-#### Resizable Array (List, ArrayList)
-
-- Similar to an Array, but resizable.
-- In many languages, will have built-in support for things such as searching, sorting, adding, removing, etc.
-
-#### String
-
-- In many languages, Strings are a thin wrapper around `char[]` and behave as if they were a primitive.
-
-#### HashTable
-
-WIP
-
-#### LinkedLists
-
-WIP
-
-#### Queues and Stacks
-
-WIP
-
-#### Trees and Graphs
-
-WIP
+- Array
+- Resizable Array (List, ArrayList)
+- String
+- HashTable
+- LinkedList
+- Queue
+- Stack
+- Trees
+- Graphs
 
 ## Algorithms
 
