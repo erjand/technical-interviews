@@ -1,6 +1,6 @@
-# Study Notes (WIP)
+# Study Notes
 
-This document is a high-level overview and roadmap to prepare for technical interviews.
+This document is a high-level overview and roadmap to prepare for technical interviews. Some portions are still WIP, but I am mostly happy with the structure and content.
 
 ## Table of Contents
 
@@ -52,7 +52,7 @@ This document is a high-level overview and roadmap to prepare for technical inte
 
 ## How to Interview
 
-WIP
+TODO: Write this section.
 
 ## Big O
 
@@ -64,21 +64,21 @@ The goals for this section are to be able to:
 - [ ] Identify the Big O time and space complexity for any algorithm you write.
 - [ ] Be familiar with the Big O time and space complexity for common algorithms and data structures (e.g. most sorting algorithms are `O(n logn)`).
 
-### Key Rules for Big O
+### Key Rules
 
 - Because Big O is a measurement of how an algorithm scales, we can drop constants and non-dominant terms. We care about whether an algorithm scales linearly, for example, and not about whether it scales at 0.5n, 1n, 2n, etc.
   - Example: `O(2n)` becomes `O(n)` because `2n` is still just linear.
   - Example: `O(n + n^2)` becomes `O(n^2)` because the constant `n` is not important compared to the quadratic `n^2`.
-- Add different steps together (e.g. `O(a)` + `O(b)` = `O(a + b)`).
+- Add different steps together (e.g. `O(a) + O(b)` = `O(a + b)`).
 - Use different variables as appropriate to represent your inputs (e.g. `O(n + m)`, or `O(k)`, or `O(a1 + a2)`, etc.).
 
 ### Space Complexity
 
-- In general, time complexity is more important than space complexity. This is a generalization and depends on the problem context, but in most situations the CPU does the heavy lifting and running processor cycles is more expensive than RAM.
+- In general, time complexity is more important than space complexity. This is a generalization and depends on the problem context, but in most situations the CPU does the heavy lifting. Running processor cycles is more expensive than RAM.
 - Space complexity answers the question "how much more memory (RAM) do we need as the inputs get larger?"
 - Space complexity increases with anything that allocates memory (assigning variables, creating new data objects, adding functions to the call stack, etc.).
 - For many languages, primitives like `bool` and `int` add `O(1)` space while things like strings, arrays and Objects add `O(n)`.
-- A common task for space complexity will be to take `O(n)` operations and do them with `O(1)` space instead. A frequent example of this is being asked to sort a data structure in place instead of copying it to a new one.
+- A common task for space complexity will be to take an operation that requires `O(n)` space and do it with `O(1)` space instead. An example of this is being asked to sort a data structure in place instead of copying it to a new one.
 
 ### Amortized Runtime
 
@@ -90,7 +90,7 @@ Example: adding an item to a `List` is almost always an `O(1)` operation unless 
 
 When writing down runtimes, two important rules are generally observed in a non-academic setting.
 
-1. Base 2 is assumed, so you can simply write `log n`, which is understood to be log base 2 of n. You will see this written as both `log n` and `logn`.
+1. Base 2 is assumed, so you can simply write `log n`, which is understood to be `log base 2 of n`. You will see this written as both `log n` and `logn`.
 2. The multiplication symbol is dropped, so you can write `n logn`, which is understood to be `n * logn`.
 
 ### Important Complexities
@@ -106,6 +106,8 @@ The following are important complexities to be familiar with (sorted smallest to
 - Cubic `O(n^3)`
 - Exponential `O(2^n)`
 - Factorial `O(n!)`
+
+TODO: Add a brief description and sample algorithm for each complexity.
 
 ## Data Structures
 
@@ -123,19 +125,21 @@ The goals for this section are to be able to:
 
 The following are the most important data structures to be familiar with. Of these, particular attention should be given to HashTables and Arrays, as many problems are solved with these two structures alone.
 
-- Array
+- Array (single and multi-dimensional, especially two-dimensional)
 - Resizable Array (List, ArrayList)
 - String
-- HashTable
-- LinkedList
+- HashTable (both a hash of elements and a collection of hashed key-value pairs)
+- LinkedList (single and double, though double is less common)
 - Queue
 - Stack
-- Trees
+- Trees (some of the most important are: binary, sorted binary, n-ary, and prefix trees)
 - Graphs
+
+TODO: Break down each of these data structures with some brief explanation and enumerate the sub categories when helpful (e.g. trees).
 
 ## Algorithms
 
-It is important that you are familiar with frequently used algorithm patterns and a standard assortment of common algorithms. Knowing these well will allow you to solve problems quickly versus having to figure out algorithmic implementations for each problem as you go.
+It is important that you are familiar with frequently used algorithm patterns and a standard assortment of common algorithms. Knowing these will allow you to solve problems quickly versus having to figure out algorithmic implementations for each problem as you go.
 
 It is recommended that you focus on learning patterns and frequently used algorithms instead of trying to memorize specific solutions to specific problems.
 
@@ -148,7 +152,9 @@ The goals for this section are to be able to:
 
 ### Important Algorithm Patterns
 
-At the bottom of this page there are links to more information on important patterns. Each list of important patterns may have slight differences. In addition, the number and complexity of patterns you want to learn could vary based on how heavy the algorithm portion of the interview at your targeted companies will be. For example, Amazon is well-known for having more complicated algorithm problems than many other companies. For some of the topics on this list you will want to be able to do your own implementation, while for others being familiar with how they work is likely to be sufficient.
+At the bottom of this page there are links to more information on important patterns. Each list of important patterns may have slight differences. In addition, the number and complexity of patterns you want to learn could vary based on how heavy the algorithm portion of the interview at your targeted companies will be. For example, Amazon is well-known for having more complicated algorithm problems than many other companies.
+
+For some of the topics on this list you will want to be able to do your own implementation, while for others being familiar with how they work is likely to be sufficient.
 
 Some of the most important patterns are:
 
@@ -175,15 +181,24 @@ Some of the most important patterns are:
 - Two Heaps
 - Two Pointers
 
+TODO: Add a brief explanation and sample implementation for each of the above patterns.
+
 ### Algorithmic Building Blocks
 
-These are tasks that will come in handy while solving problems. While each of these is unlikely to represent an entire problem, they can be used as modular parts to quickly move through portions of a problem. You should know how to do the following in your chosen language:
+These are tasks that will come in handy while solving problems. While each of these is unlikely to represent an entire problem, they can be used as modular parts to quickly move through portions of a problem.
 
+Depending on the language you are using, some of these may be easier or harder due to standard library functions. You should know how to do the following in your chosen language:
+
+- Construct and traverse multi-dimensional arrays.
+- Convert common data types into each other (strings to integers, char to integer, vice-versa, etc.)
 - Find the absolute value of a number.
 - Find the max (or min) value of multiple values.
+- Parse a string to do things like count, remove, or add characters, extract a substring, etc.
 - Split an integer into its digits (and vice-versa).
 - Traverse a LinkedList with one or two pointers.
 - Traverse a Tree via BFS or DFS.
+
+TODO: Add a brief explanation and sample implementation for each of the above building blocks.
 
 ## Resources
 
@@ -193,16 +208,27 @@ These are tasks that will come in handy while solving problems. While each of th
 - [Grokking the Coding Interview (paid)](https://www.educative.io/courses/grokking-the-coding-interview)
 - [Sean Prashad - LeetCode Patterns](https://github.com/SeanPrashad/leetcode-patterns)
 
+### Big O Notation
+
+- [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+- [What is Big O Notation](https://jarednielsen.com/big-o-notation/)
+
 ### Books
 
-- [Cracking the Coding Interview (CtCI)](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
+- [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
+- [Mindset: The New Psychology of Success](https://www.amazon.com/Mindset-Psychology-Carol-S-Dweck/dp/0345472322)
+
+### Company and Industry Research
+
+- [blind](https://www.teamblind.com/)
+- [glassdoor](https://www.glassdoor.com)
+- [levels.fyi](https://www.levels.fyi/)
+
+### Interviewing
+
+- [Pramp](https://www.pramp.com/#/)
 
 ### Practice Problems
 
 - [LeetCode](https://www.leetcode.com/)
 - [HackerRank](https://www.hackerrank.com/)
-
-### Understanding Big O
-
-- [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
-- [What is Big O Notation](https://jarednielsen.com/big-o-notation/)
