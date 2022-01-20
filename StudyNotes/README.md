@@ -62,7 +62,7 @@ The goals for this section are to be able to:
 
 - [ ] Understand the major Big O complexities and their relationship to each other (small to large).
 - [ ] Identify the Big O time and space complexity for any algorithm you write.
-- [ ] Be familiar with key Big O patterns (e.g. most sorting algorithms are `O(n logn)`).
+- [ ] Be familiar with the Big O time and space complexity for common algorithms and data structures (e.g. most sorting algorithms are `O(n logn)`).
 
 ### Key Rules for Big O
 
@@ -111,8 +111,6 @@ The following are important complexities to be familiar with (sorted smallest to
 
 > "Data dominates. If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to progamming." -Rob Pike, [5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
 
-### Section Goals
-
 The goals for this section are to be able to:
 
 - [ ] Identify and talk about each of the major data structures.
@@ -137,7 +135,55 @@ The following are the most important data structures to be familiar with. Of the
 
 ## Algorithms
 
-WIP
+It is important that you are familiar with frequently used algorithm patterns and a standard assortment of common algorithms. Knowing these well will allow you to solve problems quickly versus having to figure out algorithmic implementations for each problem as you go.
+
+It is recommended that you focus on learning patterns and frequently used algorithms instead of trying to memorize specific solutions to specific problems.
+
+The goals for this section are to be able to:
+
+- [ ] Be familiar with a list of frequently used algorithm patterns and recognize when they are needed for a particular problem.
+- [ ] Know how to quickly and cleanly implement various algorithmic tasks such as splitting an integer into its digits, performing a DFS or BFS tree search, etc.
+- [ ] Know the common sorting and searching algorithms: their names, Big O complexities, and how to loosely implement a few of them.
+- [ ] Be able to name the Big O time and space complexity for any algorithm you write.
+
+### Important Algorithm Patterns
+
+At the bottom of this page there are links to more information on important patterns. Each list of important patterns may have slight differences. In addition, the number and complexity of patterns you want to learn could vary based on how heavy the algorithm portion of the interview at your targeted companies will be. For example, Amazon is well-known for having more complicated algorithm problems than many other companies. For some of the topics on this list you will want to be able to do your own implementation, while for others being familiar with how they work is likely to be sufficient.
+
+Some of the most important patterns are:
+
+- Binary Search
+- Breadth-First Search (BFS)
+- Bubble Sort
+- Bucket Sort
+- Cyclic Sort
+- Depth-First Search (DFS)
+- Dynamic Programming & Memoization
+- Fast and Slow Pointers
+- In-place Reversal of a LinkedList
+- Fibonacci Sequence
+- Gauss Sum
+- Map-Reduce
+- Merge Intervals
+- Merge Sort
+- Finding Prime Numbers
+- Quick Sort
+- Recursion
+- Sliding Window
+- Subsets
+- Tree Traversals: Level-Order, Pre-Order, Post-Order
+- Two Heaps
+- Two Pointers
+
+### Algorithmic Building Blocks
+
+These are tasks that will come in handy while solving problems. While each of these is unlikely to represent an entire problem, they can be used as modular parts to quickly move through portions of a problem. You should know how to do the following in your chosen language:
+
+- Find the absolute value of a number.
+- Find the max (or min) value of multiple values.
+- Split an integer into its digits (and vice-versa).
+- Traverse a LinkedList with one or two pointers.
+- Traverse a Tree via BFS or DFS.
 
 ## Resources
 
