@@ -1,6 +1,10 @@
 # Study Notes
 
-This document is a high-level overview and roadmap to prepare for technical interviews. Some portions are still WIP, but I am mostly happy with the structure and content.
+This document is a high-level overview and roadmap to prepare for technical interviews. It does not address System Design preparation or topics.
+
+Overall, I have tried to keep the document short by providing information about the things to study rather than the study material itself. The [Resources](#resources) section at the end of the document is an attempt at curating a list of quality resources for additional study.
+
+Some portions are still WIP.
 
 ## Table of Contents
 
@@ -227,6 +231,12 @@ TODO: Add a brief explanation and sample implementation for each of the above bu
 ### Interviewing
 
 - [Pramp](https://www.pramp.com/#/)
+
+### Java
+
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
+- [Java 16 Official Docs](https://google.github.io/styleguide/javaguide.html)
 
 ### Practice Problems
 
