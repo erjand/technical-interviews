@@ -113,6 +113,38 @@ The following are important complexities to be familiar with (sorted smallest to
 
 TODO: Add a brief description and sample algorithm for each complexity.
 
+#### Constant
+
+Constant time is represented as `O(1)` and describes algorithms which do not scale with input. Their runtime is constant regardless of the input size.
+
+Some common examples of constant time algorithms are:
+- Arithmetic operations.
+- Accessing items in a collection by index or key value (like an `Array` or `HashSet`).
+- Adding an item to a collection such as a `Stack`.
+
+```java
+// Regardless of the size of num, the runtime will be the same.
+public bool IsEven(int num) {
+	return num % 2 == 0;
+}
+```
+
+#### Logarithmic
+
+#### Linear
+
+#### Multilinear
+
+#### Linear Logarithmic
+
+#### Quadratic
+
+#### Cubic
+
+#### Exponential
+
+#### Factorial
+
 ## Data Structures
 
 > "Data dominates. If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to progamming." -Rob Pike, [5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
