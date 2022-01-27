@@ -133,6 +133,24 @@ public bool IsEven(int num) {
 
 #### Linear
 
+Linear time is represented as `O(n)` and is used to describe algorithms that scale linearly with input.
+
+Common examples of linear time algorithms are:
+- Single `for` loops.
+- Once-through `n` operations, such as traversing an `Array` or `LinkedList`.
+
+```java
+// As the array gets larger, the run-time increases linearly.
+public bool Contains(string[] stringArray, string targetString) {
+	for (int i = 0; i < stringArray.Length; i++) {
+		if (stringArray[i] == targetString) {
+			return true;
+		}
+	}
+	return false;
+}
+```
+
 #### Multilinear
 
 #### Linear Logarithmic
