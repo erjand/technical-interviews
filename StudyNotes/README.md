@@ -2,43 +2,44 @@
 
 This document is a high-level overview and roadmap to prepare for technical interviews. It does not address System Design preparation or topics.
 
-Overall, I have tried to keep the document short by providing information about the things to study rather than the study material itself. The [Resources](#resources) section at the end of the document is an attempt at curating a list of quality resources for additional study.
+Overall, I have tried to keep the document short by providing information about the things to study rather than the study material itself. The [Resources](#resources) section at the end of the document has a list of quality resources for additional study.
 
-Some portions are still WIP.
+This document is considered finished, although I am still editing and improving it from time to time.
 
 ## Table of Contents
 
 1. [Getting Started](#getting-started)
-2. [How to Interview](#how-to-interview)
-3. [Big O](#big-o)
-4. [Data Structures](#data-structures)
-5. [Algorithms](#algorithms)
-6. [Resources](#resources)
+2. [Big O](#big-o)
+3. [Data Structures](#data-structures)
+4. [Algorithms](#algorithms)
+5. [Resources](#resources)
 
 ## Getting Started
 
 > "What any person in the world can learn, _almost_ all persons can learn, _if_ provided with the appropriate prior and current conditions of learning." - Dr. Carol Dweck, from the book _Mindset_
 
-1. **Set a specific goal:** "I want to work at company X, or a company like X, by date Y". This can change over time, but it is helpful to be targeted and measured in your time usage as you begin.
+1. **Set a specific goal:** Such as, "I want to work at company *x*, or a company like *x*, or total compensation *z* by date *y*". This can change over time, but it is helpful to be targeted and measured in your time usage as you begin.
 
 2. **Build a roadmap to get from where you are now to where you want to be.** Depending on your level of familiarity with some of these topics, this roadmap could be as detailed as working through a long list of data structures and algorithms, or as pointed as doing a couple of practice interviews and reviewing key concepts.
 
-3. **Pick a specific programming language to use for your preparation.** When you go to interview, you will be asked what language you want to use. You want to be very comfortable with the syntax and data structures available to you in your chosen language, as well as understanding other important languages features. It is recommended to pick a language that is widely-used and has some basic library support for common data structures. Some good choices are:
-   - Java (if unsure, pick this or Python)
-   - Python
-   - C# (this can be a good choice over Java if you are targeting companies in the Windows ecosystem)
-   - C++ (particularly if interested in companies that favor lower-level languages)
-   - JavaScript (particularly if interested in front-end roles)
-   - Other languages that could make sense given your particular goals: Go, Kotlin, Rust, Ruby, Swift, etc.
+3. **Pick a specific programming language to use for your preparation.** When you go to interview, you will be asked what language you want to use. You should be very comfortable with the syntax and data structures available to you in your chosen language, as well as understanding other important languages features. It is recommended to pick a language that is widely-used and has some basic library support for common data structures. The table below has some recommended options with additional factors to be aware of. In addition to the languabes below, some choices that might make sense given your particular goals are: Go, Kotlin, Rust, Ruby, Swift, etc. The less commonly used your language choice is, the more it could impact your interview, but otherwise what is most important is having a strongest language you feel comfortable interviewing with.
+   
+| Language   | Considerations                                                                                      |
+| ---------- | --------------------------------------------------------------------------------------------------- |
+| Java       | *lingua franca* of the industry. This is a great pick if there are no other strong preferences.     |
+| Python     | Also a great pick. Used commonly in many CS university programs.                                    |
+| C#         | Very similar to Java, with a slight .NET emphasis. Also a great choice.                             |
+| C++        | Pick C++ (or maybe Rust) if targeting industries that use lower-level programming, otherwise avoid. |
+| JavaScript | Great pick if you are wanting a full-stack or front-end role.                                       |   
 
-4. **Work with others**. Having other experienced engineers that you can ask questions of, practice with, or discuss concepts with is very helpful and can save a lot of time trying to learn new things or discover your unknown-unknowns. Ideally these would be real-world connections, but in the absence of these kinds of relationships, there are a number of online communities where you can participate and discuss with others.
+4. **Work with others**. You will learn faster and more effectively by working with other experienced engineers. Find people who you can ask questions of, practice with, or discuss concepts with. Not only will this save you time and help you discover your unknown-unknowns, it will also help you continue to build your professional network. Ideally these would be real-world connections, but in the absence of these kinds of relationships, there are a number of online communities where you can participate and discuss with others.
 
 5. **Be intentional and strategic in your preparation**. This is a broad topic, but here are a few suggestions:
-   - There are an almost limitless number of technical resources online of varying degrees of quality. Rather than trying to gain a comprehensive breadth of knowledge on all subjects, take the time to identify the ideas that are truly important to master and focus on utilizing high-quality resources in those areas.
-   - Don't try to memorize things. Instead, look for and learn patterns and concepts.
+   - There are an almost limitless number of technical resources online of varying degrees of quality. Rather than trying to gain a comprehensive breadth of knowledge on all subjects, take the time to identify the ideas that are truly important to master. Focus on utilizing high-quality resources in those areas.
+   - Don't try to memorize, instead look for patterns and seek to understand deeply concepts.
    - Data Structures are usually more important than Algorithms. Understanding how data structures work, how they are implemented in your chosen language, and when they are used will allow you to determine the appropriate data structure for the appropriate problem. Once the correct data structure is in place, the necessary algorithm will often be readily apparent.
    - Try to study and practice for shorter lengths of time regularly instead of longer lengths of time irregularly.
-
+> 
 6. **Setup your environment and tools**. You will want to ensure you have the following:
    - A text editor with syntax support for your chosen programming language.
       - [Visual Studio Code](https://code.visualstudio.com/) is a popular and strong choice.
@@ -51,21 +52,19 @@ Some portions are still WIP.
    - (Recommended) An IDE or the ability to compile / interpret code.
       - You do not want to do your regular practice with an IDE, but it can be helpful to do things like run unit tests, print statements, or debug code as needed.
       - My recommendation is to have a stubbed out unit test or runnable file where you can quickly paste your code and then see what it does. This is helpful when you are struggling to see how a solution works, or want to step line by line through an algorithm.
-      - If you are using an interpreted language such as Python, then Visual Studio Code will have excellent extensions available to you for running code in the text editor itself. If you are using Java, [IntelliJ IDEA Community](https://www.jetbrains.com/idea/download) is a great place to start. If you are using C#, then [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/) is a high-quality and free option.
+      - Visual Studio Code has excellent extensions for many languages that can debug code in the text editor itself. For more full-featured IDEs:
+         - If you are using Java, [IntelliJ IDEA Community](https://www.jetbrains.com/idea/download) is a great place to start. 
+         - If you are using C#, then [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/) is a high-quality and free option.
    - (Optional) Some people find spaced-repetition flash card programs, such as [Anki](https://ankiweb.net/about) to be very useful.
-
-## How to Interview
-
-TODO: Write this section.
 
 ## Big O
 
 Big O is the language and metric used to describe the efficiency of algorithms with respect to time and space. Big O is fundamentally a measurement of how an algorithm scales with input.
 
-The goals for this section are to be able to:
+The goals for this section are to:
 
-- [ ] Understand the major Big O complexities and their relationship to each other (small to large).
-- [ ] Identify the Big O time and space complexity for any algorithm you write.
+- [ ] Understand the major Big O complexities and their relationship to each other.
+- [ ] Be able to identify the Big O time and space complexity for any algorithm you write.
 - [ ] Be familiar with the Big O time and space complexity for common algorithms and data structures (e.g. most sorting algorithms are `O(n logn)`).
 
 ### Key Rules
@@ -88,7 +87,7 @@ The goals for this section are to be able to:
 
 Amortized runtime is a way of describing the runtime where the worst case happens but then doesn't happen again for a while.
 
-Example: adding an item to a `List` is almost always an `O(1)` operation unless that addition would exceed the amount of memory allocated. If this is the case, the List will double it's size and copy itself, which is an `O(n)` operation. Even though the worst-case of adding an item to a List is `O(n)` we still talk about it as `O(1)` since that is what we expect to happen in _almost_ every case.
+Example: adding an item to a `List` is almost always an `O(1)` operation unless that addition would exceed the amount of memory currently allocated to the List. If this is the case, the List will double it's size and copy itself, which is an `O(n)` operation. Even though the worst-case of adding an item to a List is `O(n)` we still talk about it as `O(1)` since that is what we expect to happen in _almost_ every case.
 
 ### Syntax and Base 2
 
@@ -101,67 +100,15 @@ When writing down runtimes, two important rules are generally observed in a non-
 
 The following are important complexities to be familiar with (sorted smallest to largest).
 
-- Constant `O(1)`
-- Logarithmic `O(log n)`
-- Linear `O(n)`
-- Multilinear `O(m + n)`
-- Linear Logarithmic `O(n logn)`
-- Quadratic `O(n^2)`
-- Cubic `O(n^3)`
-- Exponential `O(2^n)`
-- Factorial `O(n!)`
-
-TODO: Add a brief description and sample algorithm for each complexity.
-
-#### Constant
-
-Constant time is represented as `O(1)` and describes algorithms which do not scale with input. Their runtime is constant regardless of the input size.
-
-Some common examples of constant time algorithms are:
-- Arithmetic operations.
-- Accessing items in a collection by index or key value (like an `Array` or `HashSet`).
-- Adding an item to a collection such as a `Stack`.
-
-```java
-// Regardless of the size of num, the runtime will be the same.
-public bool IsEven(int num) {
-	return num % 2 == 0;
-}
-```
-
-#### Logarithmic
-
-#### Linear
-
-Linear time is represented as `O(n)` and is used to describe algorithms that scale linearly with input.
-
-Common examples of linear time algorithms are:
-- Single `for` loops.
-- Once-through `n` operations, such as traversing an `Array` or `LinkedList`.
-
-```java
-// As the array gets larger, the run-time increases linearly.
-public bool Contains(string[] stringArray, string targetString) {
-	for (int i = 0; i < stringArray.Length; i++) {
-		if (stringArray[i] == targetString) {
-			return true;
-		}
-	}
-	return false;
-}
-```
-
-#### Multilinear
-
-#### Linear Logarithmic
-
-#### Quadratic
-
-#### Cubic
-
-#### Exponential
-
-#### Factorial
+- Constant: `O(1)`
+- Logarithmic: `O(log n)`
+- Linear: `O(n)`
+- Multilinear: `O(m + n)`
+- Linear Logarithmic: `O(n logn)`
+- Quadratic: `O(n^2)`
+- Cubic: `O(n^3)`
+- Exponential: `O(2^n)`
+- Factorial: `O(n!)`
 
 ## Data Structures
 
@@ -173,23 +120,21 @@ The goals for this section are to be able to:
 - [ ] Loosely implement each of the major data structures in your chosen language.
 - [ ] Identify and explain the Big O time and space complexity for the important operations of each of the major data structures (access, search, insert, remove).
 - [ ] Choose the correct data structure(s) to use for solving a given problem.
-- [ ] Know what the significant methods and properties for each data structure are, and how to use them (e.g. that a `Queue` will have `.push()`, `.peek()`, and `.pop()`.
+- [ ] Know what the significant methods and properties for each data structure are, and how to use them (e.g. that a `Queue` will have `.push()`, `.peek()`, and `.pop()`).
 
 ### Major Data Structures
 
-The following are the most important data structures to be familiar with. Of these, particular attention should be given to HashTables and Arrays, as many problems are solved with these two structures alone.
+The following are the data structures to be familiar with for almost all technical interviews. Many problems are solved primarily with HashTables and Arrays.
 
 - Array (single and multi-dimensional, especially two-dimensional)
 - Resizable Array (List, ArrayList)
 - String
-- HashTable (both a hash of elements and a collection of hashed key-value pairs)
+- HashTable (both a hash of elements and a collection of hashed key-value pairs, sometimes called a HashSet)
 - LinkedList (single and double, though double is less common)
 - Queue
 - Stack
 - Trees (some of the most important are: binary, sorted binary, n-ary, and prefix trees)
-- Graphs
-
-TODO: Break down each of these data structures with some brief explanation and enumerate the sub categories when helpful (e.g. trees).
+- Graphs (weighted and unweighted, uni-directional and bi-directional)
 
 ## Algorithms
 
@@ -197,7 +142,7 @@ It is important that you are familiar with frequently used algorithm patterns an
 
 It is recommended that you focus on learning patterns and frequently used algorithms instead of trying to memorize specific solutions to specific problems.
 
-The goals for this section are to be able to:
+The goals for this section are to:
 
 - [ ] Be familiar with a list of frequently used algorithm patterns and recognize when they are needed for a particular problem.
 - [ ] Know how to quickly and cleanly implement various algorithmic tasks such as splitting an integer into its digits, performing a DFS or BFS tree search, etc.
@@ -206,7 +151,7 @@ The goals for this section are to be able to:
 
 ### Important Algorithm Patterns
 
-At the bottom of this page there are links to more information on important patterns. Each list of important patterns may have slight differences. In addition, the number and complexity of patterns you want to learn could vary based on how heavy the algorithm portion of the interview at your targeted companies will be. For example, Amazon is well-known for having more complicated algorithm problems than many other companies.
+At the bottom of this page there are links to more information on important patterns. Each list of important patterns may have slight differences. In addition, the number and complexity of patterns you want to learn could vary based on how heavy the algorithm portion of the interview at your targeted companies will be.
 
 For some of the topics on this list you will want to be able to do your own implementation, while for others being familiar with how they work is likely to be sufficient.
 
@@ -235,13 +180,11 @@ Some of the most important patterns are:
 - Two Heaps
 - Two Pointers
 
-TODO: Add a brief explanation and sample implementation for each of the above patterns.
-
 ### Algorithmic Building Blocks
 
 These are tasks that will come in handy while solving problems. While each of these is unlikely to represent an entire problem, they can be used as modular parts to quickly move through portions of a problem.
 
-Depending on the language you are using, some of these may be easier or harder due to standard library functions. You should know how to do the following in your chosen language:
+Depending on the language you are using, some of these may be easier or harder due to the presence or absence of standard library functions. You should know how to do the following in your chosen language:
 
 - Construct and traverse multi-dimensional arrays.
 - Convert common data types into each other (strings to integers, char to integer, vice-versa, etc.)
@@ -252,14 +195,12 @@ Depending on the language you are using, some of these may be easier or harder d
 - Traverse a LinkedList with one or two pointers.
 - Traverse a Tree via BFS or DFS.
 
-TODO: Add a brief explanation and sample implementation for each of the above building blocks.
-
 ## Resources
 
 ### Algorithm Patterns
 
 - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
-- [Grokking the Coding Interview (paid)](https://www.educative.io/courses/grokking-the-coding-interview)
+- [educative.io - Grokking the Coding Interview (paid)](https://www.educative.io/courses/grokking-the-coding-interview)
 - [Sean Prashad - LeetCode Patterns](https://github.com/SeanPrashad/leetcode-patterns)
 
 ### Big O Notation
@@ -284,6 +225,7 @@ TODO: Add a brief explanation and sample implementation for each of the above bu
 
 ### Java
 
+- [educative.io - Ace the Java Coding Interview (paid)](https://www.educative.io/path/ace-java-coding-interview)
 - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
 - [Java 16 Official Docs](https://google.github.io/styleguide/javaguide.html)
