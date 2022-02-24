@@ -22,15 +22,18 @@ This document is considered finished, although I am still editing and improving 
 
 2. **Build a roadmap to get from where you are now to where you want to be.** Depending on your level of familiarity with some of these topics, this roadmap could be as detailed as working through a long list of data structures and algorithms, or as pointed as doing a couple of practice interviews and reviewing key concepts.
 
-3. **Pick a specific programming language to use for your preparation.** When you go to interview, you will be asked what language you want to use. You should be very comfortable with the syntax and data structures available to you in your chosen language, as well as understanding other important languages features. It is recommended to pick a language that is widely-used and has some basic library support for common data structures. The table below has some recommended options with additional factors to be aware of. In addition to the languabes below, some choices that might make sense given your particular goals are: Go, Kotlin, Rust, Ruby, Swift, etc. The less commonly used your language choice is, the more it could impact your interview, but otherwise what is most important is having a strongest language you feel comfortable interviewing with.
+3. **Pick a specific programming language to use for your preparation.** When you go to interview, you will be asked what language you want to use. You should be very comfortable with the syntax and data structures available to you in your chosen language, as well as understanding other important languages features. It is recommended to pick a language that is widely-used and has some basic library support for common data structures. The table below has some recommended options with additional factors to be aware of. The more obscure your choice, the more it could impact your interview, but otherwise what is most important is having a strongest language you feel comfortable interviewing with.
    
-| Language   | Considerations                                                                                      |
-| ---------- | --------------------------------------------------------------------------------------------------- |
-| Java       | *lingua franca* of the industry. This is a great pick if there are no other strong preferences.     |
-| Python     | Also a great pick. Used commonly in many CS university programs.                                    |
-| C#         | Very similar to Java, with a slight .NET emphasis. Also a great choice.                             |
-| C++        | Pick C++ (or maybe Rust) if targeting industries that use lower-level programming, otherwise avoid. |
-| JavaScript | Great pick if you are wanting a full-stack or front-end role.                                       |   
+| Language   | Considerations                                                                                                  |
+| ---------- | --------------------------------------------------------------------------------------------------------------- |
+| Java       | *lingua franca* of the industry. This is a great pick if there are no other strong preferences.                 |
+| Python     | Also a great pick and widely known. Used commonly in many CS university programs.                               |
+| JavaScript | Great pick if you are wanting a full-stack or front-end role.                                                   |
+| Kotlin     | Growing in popularity in large part for interoperability with Java.                                             |
+| Go         | Has a lot of industry support and is also becoming a frequent choice for new development.                       |
+| Ruby       | Could also be a good choice for certain companies and roles, although it is infrequently used for new projects. |
+| C#         | Very similar to Java, but with a strong .NET emphasis. Some anti-Microsoft bias may exist in certain contexts.  |
+| C++        | Pick C++ (or consider Rust) if targeting industries that use lower-level programming, otherwise probably avoid. |
 
 4. **Work with others**. You will learn faster and more effectively by working with other experienced engineers. Find people who you can ask questions of, practice with, or discuss concepts with. Not only will this save you time and help you discover your unknown-unknowns, it will also help you continue to build your professional network. Ideally these would be real-world connections, but in the absence of these kinds of relationships, there are a number of online communities where you can participate and discuss with others.
 
