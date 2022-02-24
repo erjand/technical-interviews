@@ -38,27 +38,27 @@ This document is considered finished, although I am still editing and improving 
 4. **Work with others**. You will learn faster and more effectively by working with other experienced engineers. Find people who you can ask questions of, practice with, or discuss concepts with. Not only will this save you time and help you discover your unknown-unknowns, it will also help you continue to build your professional network. Ideally these would be real-world connections, but in the absence of these kinds of relationships, there are a number of online communities where you can participate and discuss with others.
 
 5. **Be intentional and strategic in your preparation**. This is a broad topic, but here are a few suggestions:
-   - There are an almost limitless number of technical resources online of varying degrees of quality. Rather than trying to gain a comprehensive breadth of knowledge on all subjects, take the time to identify the ideas that are truly important to master. Focus on utilizing high-quality resources in those areas.
-   - Don't try to memorize, instead look for patterns and seek to understand deeply concepts.
-   - Data Structures are usually more important than Algorithms. Understanding how data structures work, how they are implemented in your chosen language, and when they are used will allow you to determine the appropriate data structure for the appropriate problem. Once the correct data structure is in place, the necessary algorithm will often be readily apparent.
-   - Try to study and practice for shorter lengths of time regularly instead of longer lengths of time irregularly.
+   1. There are an almost limitless number of technical resources online of varying degrees of quality. Rather than trying to gain a comprehensive breadth of knowledge on all subjects, take the time to identify the ideas that are truly important to master. Focus on utilizing high-quality resources in those areas.
+   2. Don't try to memorize, instead look for patterns and seek to understand deeply concepts.
+   3. Data Structures are usually more important than Algorithms. Understanding how data structures work, how they are implemented in your chosen language, and when they are used will allow you to determine the appropriate data structure for the appropriate problem. Once the correct data structure is in place, the necessary algorithm will often be readily apparent.
+   4. Try to study and practice for shorter lengths of time regularly instead of longer lengths of time irregularly.
 > 
 6. **Setup your environment and tools**. You will want to ensure you have the following:
-   - A text editor with syntax support for your chosen programming language.
+   1. A text editor with syntax support for your chosen programming language.
       - [Visual Studio Code](https://code.visualstudio.com/) is a popular and strong choice.
       - You will be using your text editor for most of your practice problems. In an actual interview, it is unlikely you will use an actual IDE. A text editor with syntax highlighting but without auto-completion and some of the built-in features of a full IDE is a close simulation for real-world interviews.
       - In the past it may have been suggested to do coding problems with pencil and paper to more closely simulate white-boarding interviews, but in the post-COVID world of remote interviews, you will likely be doing all of your interviewing in an environment such as [CoderPad](https://coderpad.io/).
-   - A note-taking system and appropriate tools.
+   2. A note-taking system and appropriate tools.
       - If you don't already have a good system in place for taking notes, this could be an opportunity to begin developing one.
       - Writing things down is an important part of the learning process, and as you study and take notes you will quickly end up with a helpful collection of resources to review or share with others.
       - I like [Obsidian](https://obsidian.md/), but finding something that works well for you can be a personal choice.
-   - (Recommended) An IDE or the ability to compile / interpret code.
+   3. (Recommended) An IDE or the ability to compile / interpret code.
       - You do not want to do your regular practice with an IDE, but it can be helpful to do things like run unit tests, print statements, or debug code as needed.
       - My recommendation is to have a stubbed out unit test or runnable file where you can quickly paste your code and then see what it does. This is helpful when you are struggling to see how a solution works, or want to step line by line through an algorithm.
       - Visual Studio Code has excellent extensions for many languages that can debug code in the text editor itself. For more full-featured IDEs:
          - If you are using Java, [IntelliJ IDEA Community](https://www.jetbrains.com/idea/download) is a great place to start. 
          - If you are using C#, then [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/) is a high-quality and free option.
-   - (Optional) Some people find spaced-repetition flash card programs, such as [Anki](https://ankiweb.net/about) to be very useful.
+   4. (Optional) Some people find spaced-repetition flash card programs, such as [Anki](https://ankiweb.net/about) to be very useful.
 
 ## Big O
 
@@ -72,19 +72,19 @@ The goals for this section are to:
 
 ### Key Rules
 
-- Because Big O is a measurement of how an algorithm scales, we can drop constants and non-dominant terms. We care about whether an algorithm scales linearly, for example, and not about whether it scales at 0.5n, 1n, 2n, etc.
-  - Example: `O(2n)` becomes `O(n)` because `2n` is still just linear.
-  - Example: `O(n + n^2)` becomes `O(n^2)` because the constant `n` is not important compared to the quadratic `n^2`.
-- Add different steps together (e.g. `O(a) + O(b)` = `O(a + b)`).
-- Use different variables as appropriate to represent your inputs (e.g. `O(n + m)`, or `O(k)`, or `O(a1 + a2)`, etc.).
+1. Because Big O is a measurement of how an algorithm scales, we can drop constants and non-dominant terms. We care about whether an algorithm scales linearly, for example, and not about whether it scales at 0.5n, 1n, 2n, etc.
+   - Example: `O(2n)` becomes `O(n)` because `2n` is still just linear.
+   - Example: `O(n + n^2)` becomes `O(n^2)` because the constant `n` is not important compared to the quadratic `n^2`.
+2. Add different steps together (e.g. `O(a) + O(b)` = `O(a + b)`).
+3. Use different variables as appropriate to represent your inputs (e.g. `O(n + m)`, or `O(k)`, or `O(a1 + a2)`, etc.).
 
 ### Space Complexity
 
-- In general, time complexity is more important than space complexity. This is a generalization and depends on the problem context, but in most situations the CPU does the heavy lifting. Running processor cycles is more expensive than RAM.
-- Space complexity answers the question "how much more memory (RAM) do we need as the inputs get larger?"
-- Space complexity increases with anything that allocates memory (assigning variables, creating new data objects, adding functions to the call stack, etc.).
-- For many languages, primitives like `bool` and `int` add `O(1)` space while things like strings, arrays and Objects add `O(n)`.
-- A common task for space complexity will be to take an operation that requires `O(n)` space and do it with `O(1)` space instead. An example of this is being asked to sort a data structure in place instead of copying it to a new one.
+1. In general, time complexity is more important than space complexity. This is a generalization and depends on the problem context, but in most situations the CPU does the heavy lifting. Running processor cycles is more expensive than RAM.
+2. Space complexity answers the question "how much more memory (RAM) do we need as the inputs get larger?"
+3. Space complexity increases with anything that allocates memory (assigning variables, creating new data objects, adding functions to the call stack, etc.).
+4. For many languages, primitives like `bool` and `int` add `O(1)` space while things like strings, arrays and Objects add `O(n)`.
+5. A common task for space complexity will be to take an operation that requires `O(n)` space and do it with `O(1)` space instead. An example of this is being asked to sort a data structure in place instead of copying it to a new one.
 
 ### Amortized Runtime
 
