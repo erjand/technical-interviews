@@ -3,6 +3,7 @@ __pycache__/
 
 # VS Code
 .vscode
+*.code-workspace
 
 # Non-repo items
 .hidden
