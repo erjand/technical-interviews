@@ -42,7 +42,7 @@ This document is considered finished, although I am still editing and improving 
    2. Don't try to memorize, instead look for patterns and seek to understand deeply concepts.
    3. Data Structures are usually more important than Algorithms. Understanding how data structures work, how they are implemented in your chosen language, and when they are used will allow you to determine the appropriate data structure for the appropriate problem. Once the correct data structure is in place, the necessary algorithm will often be readily apparent.
    4. Try to study and practice for shorter lengths of time regularly instead of longer lengths of time irregularly.
-> 
+
 6. **Setup your environment and tools**. You will want to ensure you have the following:
    1. A text editor with syntax support for your chosen programming language.
       - [Visual Studio Code](https://code.visualstudio.com/) is a popular and strong choice.

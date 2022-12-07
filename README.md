@@ -6,9 +6,9 @@ Tags are being added throughout this repository to make searching for particular
 
 ## Contents
 
-- [SampleProblems](SampleProblems/) - A collection of real-world interview problems.
-- [Solutions](Solutions/) - Solutions for various algorithm problems.
-- [StudyNotes](StudyNotes/) - A high-level overview and roadmap to prepare for technical interviews.
+- [Sample Problems](sample-problems/) - A collection of real-world interview problems.
+- [Solutions](solutions/) - Solutions for various algorithm problems.
+- [Study Notes](study-notes/) - A high-level overview and roadmap to prepare for technical interviews.
 
 ## Additional Resources
 
