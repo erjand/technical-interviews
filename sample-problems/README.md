@@ -1,6 +1,6 @@
 # Samples
 
-A collection of interesting real-world interview problems I have encountered.
+A collection of interesting real-world interview problems.
 
 For some interviews a live code editor (such as [CoderPad](https://coderpad.io/)) will be used. For others, the interviewer wants to see well-written code but it won't actually be compiled or run. And at the other end of the spectrum, some interviewers only want to see pseudo-code demonstrating you understand the problem and a solution to it.
 
